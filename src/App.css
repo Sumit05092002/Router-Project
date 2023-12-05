@@ -1,0 +1,179 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    overflow-x: hidden;
+    background-color:rgb(35, 3, 35)
+}
+nav ul{
+    width:100vw;
+    display:flex;
+    justify-content: space-around;
+    color:white;
+    height:50px;
+    align-items: center;
+}
+.home{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+button{
+    padding:5px;
+}
+button:hover{
+    border:1px solid white;
+}
+.three{
+    width:500px;
+    display:flex;
+    justify-content: space-around;
+}
+.button{
+    width:300px;
+    display:flex;
+    justify-content: space-around;
+}
+.dashboard{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.form{
+    height:30vw;
+    width:50vw;
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.image{
+    height:30vh;
+    width:20vw;
+    border:1px solid white;
+}
+.details{
+    height:50vh;
+    width:25vw;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items:center;
+}
+.grandparent{
+    height:70vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+form{
+    display:flex;
+    flex-direction:column;
+    width:20vw;
+    height:30vh;
+    justify-content:center;
+}
+p{
+    display:flex;
+    justify-content:center;
+}
+h1{
+    display:flex;
+    justify-content:center;
+}
+.signin{
+    background-color:yellow;
+    color:black;
+}
+input{
+    color:black;
+}
+.or{
+    display:flex;
+    width:15vd;
+    height:20px;
+    align-items:center;
+    justify-content: space-around;
+}
+.one{
+    height:0px;
+    width:130px;
+    border:1px solid white;
+}
+.two{
+    height:0px;
+    width:130px;
+    border:1px solid white;
+}
+.description{
+    font-size:large;
+}
+h1{
+    font-size:larger;
+}
+.google{
+    border:1px solid white;
+}
+#passwordtext{
+    color:black;
+}
+.showpassword:hover{
+    color:blue;
+    cursor:pointer;
+}
+.headings{
+    color:white;
+}
+form{
+    color:white;
+}
+.signup{
+    display:flex;
+    width:70vw;
+    align-items:center;
+}
+.signupparents{
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    height:80vh;
+    width:100vw;
+}
+.button{
+    display:flex;
+    width:auto;
+    color:white;
+}
+.a{
+    color:white;
+}
+.register{
+    background-color:yellow;
+    color:black;
+}
+.registerGoogle{
+    border:1px solid white;
+    color:white;
+}
+.Details{
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items:center;
+}
+.student{
+    border:1px solid white;
+}
+.Instructor{
+    border:1px solid white;
+}
